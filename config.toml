@@ -1,6 +1,6 @@
-baseURL = "/"
+baseURL = "kiranma.github.io/idrishti"
 languageCode = "en-us"
-title = "Hugo Hero Theme"
+title = "idrishti eye hospitals"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 
