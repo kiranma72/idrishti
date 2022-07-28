@@ -1,0 +1,14 @@
+
+<div class="hero-image hero-image-fullscreen" style="background-image: url('{{ .Get "backgroundIMG" | relURL }}');">
+  <div class="container ">
+    <div class="hero-text">
+      <span class="hero-section">{{ .Get "section" }}</span>
+      <h1>{{ .Get "heading" | safeHTML }}</h1>
+      <p>{{ .Get "subHeading" | safeHTML }}</p>
+      {{ if .Get "button" }}
+            <a class="button button-primary" href="{{ .Get "buttonLink" | safeURL }}">{{.Get "button"}}</a>
+      {{ end }}
+  
+    </div>
+  </div>
+</div>

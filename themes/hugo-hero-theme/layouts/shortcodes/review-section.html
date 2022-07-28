@@ -1,0 +1,46 @@
+<div class="container" id="reviews">
+	<h2 style="text-align: center; visibility: visible;">Latest Reviews</h2>
+	<div style="width:10%; margin-left:45%; border-top: 2px solid #21409A; margin-bottom:20px;"></div>
+
+	<div class="row">
+  	<div class="col-sm-4">
+      <div class="latest-stories">
+        <div class="stories-image">
+          <img src={{ .Get "img1" }} class="img-responsive" alt="">
+        </div>
+        <div class="stories-info">
+          <h5>{{ .Get "name1" }}&nbsp;</h5>
+          <span>{{ .Get "date1"}}<br>
+          {{ .Get "review1" | safeHTML }}
+          </span>
+        </div>
+      </div>
+  	</div>
+    <div class="col-sm-4">
+      <div class="latest-stories">
+        <div class="stories-image">
+          <img src={{ .Get "img2" }} class="img-responsive" alt="">
+        </div>
+        <div class="stories-info">
+          <h5>{{ .Get "name2" }}&nbsp;</h5>
+          <span>{{ .Get "date2"}}<br>
+          {{ .Get "review2" | safeHTML }}
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="latest-stories">
+        <div class="stories-image">
+          <img src={{ .Get "img3" }} class="img-responsive" alt="">
+        </div>
+        <div class="stories-info">
+          <h5>{{ .Get "name3" }}&nbsp;</h5>
+          <span>{{ .Get "date3"}}<br>
+          {{ .Get "review3" | safeHTML }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

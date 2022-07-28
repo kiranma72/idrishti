@@ -1,0 +1,26 @@
+
+#reviews {
+background-color: #ffffFf;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.latest-stories {
+    margin-bottom: 20px;
+}
+
+.stories-image, .stories-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.stories-info {
+    margin-left: 15px;
+}
+
+.stories-image img {
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+}
