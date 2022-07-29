@@ -10,7 +10,7 @@ draft: false
 	heading="Experience Advanced Microincision Cataract Surgeries"
 	subHeading="No Sutures, No Injections"
 	backgroundIMG="images/drbalu-bg.jpg"
-	button="Contact us"
+	button="Call for Appointment"
 	buttonLink="tel:9845182767"
 
  >}}
